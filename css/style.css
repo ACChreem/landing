@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700&family=Nanum+Gothic+Coding&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url("components/cards.css");
+
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+div {
+  display: block;
+}
+
+h1 {
+  display: block;
+  font-weight: lighter;
+  height: 30px;
+  color: #B5FE83;
+  font-family:'Nanum Gothic Coding', monospace !important;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 900px;
+  color: grey;
+  justify-content: left;
+  margin: auto;
+}
+
+.subtitle {
+  color: #3E7C17 !important;
+}
+
+.banner {
+  font-family: 'Nanum Gothic Coding', monospace;
+  background-color: #2C3333;
+  background-size:cover;
+  padding: 100px;
+}
+
+.banner p {
+  color:white;
+  font-size: 20px;
+}
+
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #EEEEEE;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: #2C3333;
+  font-weight: bold;
+    font-family: Open Sans !important;
+}
+
+.title {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color:#2C3333;
+}
+
+.footer a {
+  font-size: 30px;
+  color:#3E7C17;
+}
+
+.contact {
+  color: #3E7C17;
+  font-size: 15px;
+}
