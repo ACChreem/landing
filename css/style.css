@@ -6,6 +6,35 @@
 body {
   margin: 0;
   font-family: Open Sans;
+  background-color: #EEEEEE;
+}
+
+.container {
+  width: 900px;
+  color: grey;
+  justify-content: left;
+  margin: auto;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 900px;
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 700px;
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 500px;
+    margin: 40px auto;
+  }
 }
 
 div {
@@ -42,11 +71,12 @@ a {
   text-decoration: none;
 }
 
-.container {
-  width: 900px;
-  color: grey;
-  justify-content: left;
-  margin: auto;
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .subtitle {
@@ -65,23 +95,13 @@ a {
   font-size: 20px;
 }
 
-
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
 .btn {
   display: inline-block;
   background-color: #EEEEEE;
-  padding: 16px 36px;
-  border-radius: 50px;
+  padding: 10px 25px;
   color: #2C3333;
   font-weight: bold;
-    font-family: Open Sans !important;
+  font-family: Open Sans !important;
 }
 
 .title {
